@@ -1,0 +1,187 @@
+/*
+Theme Name: MinimalWP
+Theme URI: http://sumeshp.com/projects/minimal-wp/;
+Description: A responsive, 1 column theme ideal for personal blogs.
+Version: 0.1
+Author: Sumesh P
+Author URI: http://sumeshp.com
+*/
+
+@import 'reset.css';
+
+body { background: #ddd; }
+a { color: #53678C; }
+a: hover{ color: #42567A;}
+h1, h2, h3, h4, h5, h6 { color: #444;}
+
+.centerCol { max-width: 640px; margin: 0 auto; padding: 0 15px;}
+.clear { visibility: hidden; clear: both; height: 1px;}
+
+#header { padding: 20px 0; margin: ; background: #444; border-bottom: 2px solid #555; font-size: 15px;}
+
+#header h2, #header h3 {font: normal 24px "Open Sans", Helvetica, sans-serif;}
+#header h2 { 
+    margin: 0; /* necessary to override reset.css rules */
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#header h3 {color: #ddd; margin: 0 0 5px; font-size: 17px; font-size: 15px; }
+a.logo { margin-top: 5px; background: url('images/profile_rounded.png') center center; display: block; width: 75px; height: 76px; text-indent: -9999px; float: left; }
+.header-meta { float:left; margin-left: 25px; }
+.header-links { float: right; margin: 5px 0 0 15px; width: 225px;}
+.header-links a {color: #ccc; background: #4d4d4d; display: block; width: 85px; padding: 7px 0 7px 8px; margin: 4px 0 0px 4px; display: block; border-radius: 2px; text-align: left; }
+.header-links a:hover {color: #fff; background: #666; }
+.header-links i { margin-right: 5px; }
+.header-links li { list-style-type: none; margin: 0; float: right;}
+a.social { border-bottom: 0;  text-decoration: none; margin-right: 14px; color: #aaa;  }
+a.twitter { color: #ACB2E3;}
+a.github { color: #aaa;}
+a.linkedin{color: #8591F2;}
+a.linkedin i{position: relative; top: -2px;}
+a.social:hover { color: #fff;}
+
+#photosWork {background: #aaa;}
+
+#content { background: #fff; font: 17px/28px Helvetica, arial, sans-serif; border-top: 2px solid #666; }
+.post { color: #444; }
+.post a { font-weight: bold; text-decoration: underline;} 
+.post-title { font-size: 30px; color: #555; margin-bottom: 15px; text-decoration: none;}
+.post-title, .post-title a {text-decoration: none;}
+.post-title a:hover {color: #555;}
+.post-footer {color: #888; border-top: 1px solid #e4e4e4; padding: 15px 0; font-family: "Open Sans", Helvetica, sans-serif; margin-top: 35px;}
+.post-footer span.meta {font-size: 15px; float: right; position: relative; top: -5px; text-align: right; }
+.fa-calendar-o {margin-left: 15px; }
+.social-widgets{}
+.twitter-share-button { position: relative; top: -6px; }
+
+#comments { font: 15px/24px  Helvetica, arial, sans-serif;  }
+
+#footer { padding: 15px 0 50px; font-size: 14px; }
+#footer a{ color: #777; font-weight: 700; margin-right: 10px; }
+#footer a:hover{color: #444;}
+.copyright { float: right; text-align: right; color: #888; }
+.copyright a {
+    margin: 0!important; /* override #footer a */
+}
+
+/* Single prev next links */
+.nextprevLinks { margin: 25px 0; line-height: 23px; font-weight: 700; }
+.nextprevLinks a {color: #444;}
+.nextprevLinks a:hover {color: #222;}
+.nextprevLinks i {color: #ccc; }
+.nextprevLinks div{max-width: 295px; background: #DAE6EB; padding: 15px; border-radius: 6px; }
+.alignleft { float: left; margin: 0 0 40px; }
+.alignleft i {float: left; margin: 0 15px 0 0;}
+.alignright {float: right; margin: 0 0 40px; } 
+.alignright i { float: right; margin: 0 0 0 15px;}
+
+/* Index pagination */
+.nextprevLinks span.current { border: 1px solid #ccc; padding: 4px 8px; font-weight: 400; }
+.nextprevLinks a.page-numbers { border: 1px solid #ccc; padding: 4px 8px; background: #eee; }
+.nextprevLinks a.page-numbers:hover { border: 1px solid #999; }
+a.next {}
+
+.post iframe {width: 100%;}
+
+.post figure{
+    margin: 0 0 25px;
+
+}
+
+.post figure img{margin: 0;}
+
+.post figure.wide{
+    margin: 0 -500px 25px !important;
+    max-width: 1600px;  
+    text-align: center; 
+}
+
+.post figure.wide img{  
+    max-width: 100%;
+    height: auto!important;
+    margin: 0 auto;
+  -ms-interpolation-mode:bicubic;
+}
+
+.post figure figcaption { color: #888; font-size: 18px; text-align: center; }
+.post figure.wide figcaption { margin-top: 10px;}
+
+.wpcf7-form {color: #444; }
+.wpcf7-form input, .wpcf7-form textarea, .wpcf7-submit { border-radius: 4px; border: 1px solid #bbb;  }
+.wpcf7-submit { padding: 8px 25px; background: #3AA15E; color: #fff;  }
+
+
+#comments{}
+
+
+
+
+
+@media (max-width: 1220px) {
+    .post figure.wide{     margin: 0 -200px 25px !important; }
+}
+
+@media (max-width: 1000px) {
+    .post figure.wide{     margin: 0 -100px 25px !important; }
+}
+
+@media (max-width: 800px) {
+    .post figure.wide{   margin: 0 0 25px !important; }
+}
+
+@media (max-width: 640px) {
+    .header-links { float: left; margin: 5px 0 0 50px; width: 80%;}
+    .header-links a {color: #ccc; background: #4d4d4d; display: block; width: 85px; padding: 7px 0 7px 8px; margin: 4px 0 0px 4px; display: block; border-radius: 2px; text-align: left; }
+    .header-links li {float: left;}
+    #header a { font-size: 14px; } 
+    div.header-meta, a.logo {position: relative; left: -10px;} 
+}
+
+@media (max-width: 540px) {
+    .nextprevLinks div { min-width: 100%; margin: 2px 0; }
+    span.meta {float: right;}
+    span.social-widgets { max-width: 60%; float: left; }
+    .copyright {width: 40%; }
+}
+@media (max-width: 400px) {
+    #header { text-align: center;}
+    div.header-meta, a.logo {float: none!important; }
+    a.logo { margin: 0 auto; position: relative; left: 12px; }
+}
+
+
+
+
+
+
+
+       
+#comments{}
+#comments h4{}
+#comments ol {list-style-type: none; margin: 0; padding: 0;}
+#comments ol li {background: #fafafa; border: 1px solid #ccc; margin: 10px 0; padding: 0 15px; }
+#comments ol li.bypostauthor { background: #eee; }
+.comment-body{ }
+.vcard { margin-top: 0; }
+.avatar{}
+cite.fn{}
+.comment-meta{}
+.comment-meta a {}
+.reply {}
+.comment-reply-link {}
+#respond {}
+h3#reply-title {}
+#cancel-comment-reply-link {}
+#commentform {}
+#commentform input, #commentform textarea{ border: 1px solid #ccc; border-radius: 5px; padding: 5px 10px; }
+#commentform textarea{}
+
+p.logged-in-as{}
+p.comment-form-comment {}
+#comments label {margin-right: 40px;}
+p.comment-form-comment label {margin-right: 30px!important;}
+
+.form-allowed-tags{ display: none;}  
+.form-submit #submit { padding: 8px 25px; background: #3AA15E; color: #fff;  }
