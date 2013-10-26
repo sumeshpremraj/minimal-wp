@@ -1,7 +1,8 @@
 # Minimal WP
 A clean, single column responsive WordPress theme ideal for writers. 
 
-[Get Minimal WP](https://github.com/sumeshpremraj/minimal-wp/archive/master.zip)
+[Download](https://github.com/sumeshpremraj/minimal-wp/archive/master.zip)
+[Demo](http://sumeshp.com)
 
 ![Ghostwriter home page](https://github.com/sumeshpremraj/minimal-wp/blob/master/screenshot.png?raw=true)
 
