@@ -25,15 +25,19 @@
             <div class="header-meta">
                 <h2><?php bloginfo( 'name' ); ?></h2>
                 
-                <!-- Uncomment for linked title
+                <!-- === Remove above h2 tag and uncomment this for linked title
+
                 <h2><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h2>
 
                 -->
 
-                <h3><?php bloginfo( 'description' ); ?><!--Bits of tech, biking and photography.--></h3>
-                <a class="social twitter" href="https://twitter.com/sumesh"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
-                <a class="social github" href="https://github.com/sumeshpremraj"><i class="fa fa-github fa-lg"></i> Github</a>
-                <a class="social linkedin" href="http://www.linkedin.com/pub/sumesh-premraj/5/991/4b5"><i class="fa fa-linkedin fa-lg"></i> LinkedIn</a>
+                <h3><?php bloginfo( 'description' ); ?></h3>
+                <!-- === Uncomment for social media links, edit the links below too!
+                <a class="social twitter" href="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
+                <a class="social github" href="#"><i class="fa fa-github fa-lg"></i> Github</a>
+                <a class="social linkedin" href="#"><i class="fa fa-linkedin fa-lg"></i> LinkedIn</a>
+                <a class="social facebook" href="#"><i class="fa fa-facebook fa-lg"></i> Facebook</a>
+                -->
             </div>
 
             <ul class="header-links">
