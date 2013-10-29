@@ -1,7 +1,7 @@
     <div id="footer">
         <div class="centerCol">
             <div class="copyright">
-                <a href="http://wordpress.org">WordPress</a> + <a href="https://github.com/sumeshpremraj/minimal-wp">MinimalWP</a> + <a href=" https://www.digitalocean.com/?refcode=7f10667e7318
+                <a href="http://wordpress.org">WordPress</a> + <a href="http://sumeshp.com/work/minimal-wp-theme">MinimalWP</a> + <a href=" https://www.digitalocean.com/?refcode=7f10667e7318
 ">DigitalOcean</a>
                 <br/>
                 &copy; 2013 <?php bloginfo('name'); ?>.
